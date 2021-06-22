@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: honeydew;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(110deg, #FCD824, #FCB224);
+}
+
+.chat {
+    width: 360px;
+    background: bisque;
+    height: 580px;
+    padding: 80px 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chat h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#connect {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    background: linear-gradient(110deg, greenyellow, green, chartreuse);
+    background-size: 200%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#connect:hover {
+    background-position: right;
+}
+
+#inputText {
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 15px 0;
+}
+
+.text-input-dialog input {
+    font-size: 15px;
+    color: black;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 20px;
+}
+
+#sendMessage {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(110deg, darkorange, gold, goldenrod);
+    background-size: 200%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#sendMessage:hover {
+    background-position: right;
+}
+
+.chat h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#disconnect {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(110deg, darkred, red, crimson);
+    background-size: 200%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#disconnect:hover {
+    background-position: right;
+}

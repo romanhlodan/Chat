@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+</head>
+<body>
+<div class="chat">
+    <h2>Hello, please connect to chat</h2>
+    <button id="connect">Connect</button>
+
+
+    <div class="text-input-dialog">
+        <p id="messageText"></p>
+        <input id="inputText">
+        <button id="sendMessage">Send Message</button>
+    </div>
+    <div>
+        <h3>Disconnect to chat</h3>
+        <button id="disconnect">Disconnect</button>
+    </div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
